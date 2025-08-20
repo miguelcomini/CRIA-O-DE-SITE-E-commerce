@@ -107,3 +107,7 @@ nav ul li a {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+body {
+  background-color: gray;
+}
