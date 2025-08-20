@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, yellow, orange);
+  padding: 10px 20px;
+}
+
+header .logo img {
+  width: 80px;
+}
+
+header h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 5px;
+  border-radius: 15px 0 0 15px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons a {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Menu */
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: #ffcc00;
+  list-style: none;
+  padding: 10px;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  background: #FFF700 #FB7819;
+  color: white;
+  padding: 30px 20px;
+}
+
+.banner img {
+  width: 250px;
+  margin: 20px 0;
+}
+
+/* Produtos */
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.produto {
+  text-align: center;
+  margin: 10px;
+  max-width: 200px;
+}
+
+.produto img {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
